@@ -37,7 +37,7 @@
 ## Deploy
 You can deploy this on HEROKU.COM
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Akbotmakersnew/LUCIFER)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mazioragna/LUCIFER.git)
 
 ## Commands
 ```
