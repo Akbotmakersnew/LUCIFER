@@ -126,7 +126,7 @@ async def re_enable_chat(bot, message):
         return await message.reply('Give Me A Valid Chat ID')
     sts = await db.get_chat(int(chat))
     if not sts:
-        return await message.reply("Chat Not Found In DB !")
+        return await message.reply("Chat Not Found In DB😥 !")
     if not sts.get('is_disabled'):
         return await message.reply('This chat is not yet disabled.')
     await db.re_enable_chat(int(chat_))
