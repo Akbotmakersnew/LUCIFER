@@ -1,6 +1,6 @@
 import random
 
-@CC_autobot.on_message(filters.command(["country"]))
+plugins.on_message(filters.command(["country"]))
 async def country_info(bot, update: Import.Msg):
     country = update.text.split(" ", 1)[1]
     country = CountryInfo(country)
