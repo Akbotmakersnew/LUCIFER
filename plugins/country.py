@@ -1,5 +1,4 @@
 import random
-from countryinfo import CountryInfo
 
 @CC_autobot.on_message(filters.command(["country"]))
 async def country_info(bot, update: Import.Msg):
