@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/Ls_Supportz')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/Ak_Bot_SupportGroup')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,8 +44,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('👨‍🦱 DEV', url='https://t.me/IAM_A_JOKER'),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Ls_Supportz')
+            InlineKeyboardButton('👨‍💻 DEV', url='https://t.me/IAM_A_JOKER'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/Ak_Bot_SupportGroup')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -87,8 +87,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/CC_autobot?startgroup=true')
             ],[
-            InlineKeyboardButton('👨‍🦱 DEV', url='https://t.me/IAM_A_JOKER'),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Ls_Supportz')
+            InlineKeyboardButton('👨‍💻 DEV', url='https://t.me/IAM_A_JOKER'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/Ak_Bot_SupportGroup')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
