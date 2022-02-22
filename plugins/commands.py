@@ -47,7 +47,7 @@ async def start(client, message):
             InlineKeyboardButton('👨‍💻 DEV', url='https://t.me/IAM_A_JOKER'),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/Ak_Bot_SupportGroup')
             ],[
-            InlineKeyboardButton('👨‍💻 Creator', url='https://t.me/IAM_A_JOKER'),
+            InlineKeyboardButton('👨‍💻 Creators', url='https://t.me/Ak_Bot_SupportGroup'),
             InlineKeyboardButton('😊 About', callback_data='about')
             ],[
             InlineKeyboardButton('👥 Admins', callback_data='admins'),
@@ -93,7 +93,7 @@ async def start(client, message):
             InlineKeyboardButton('👨‍💻 DEV', url='https://t.me/IAM_A_JOKER'),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/Ak_Bot_SupportGroup')
             ],[
-            InlineKeyboardButton('👨‍💻 Creator', url='https://t.me/IAM_A_JOKER'),
+            InlineKeyboardButton('👨‍💻 Creators', url='https://t.me/Ak_Bot_SupportGroup'),
             InlineKeyboardButton('😊 About', callback_data='about')
             ],[
             InlineKeyboardButton('👥 Admins', callback_data='admins'),
