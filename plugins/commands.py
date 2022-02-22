@@ -47,8 +47,11 @@ async def start(client, message):
             InlineKeyboardButton('👨‍💻 DEV', url='https://t.me/IAM_A_JOKER'),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/Ak_Bot_SupportGroup')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('👨‍💻 Creator', url='https://t.me/IAM_A_JOKER'),
             InlineKeyboardButton('😊 About', callback_data='about')
+            ],[
+            InlineKeyboardButton('👥 Admins', callback_data='admins'),
+            InlineKeyboardButton('ℹ️ Help', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -90,8 +93,11 @@ async def start(client, message):
             InlineKeyboardButton('👨‍💻 DEV', url='https://t.me/IAM_A_JOKER'),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/Ak_Bot_SupportGroup')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('👨‍💻 Creator', url='https://t.me/IAM_A_JOKER'),
             InlineKeyboardButton('😊 About', callback_data='about')
+            ],[
+            InlineKeyboardButton('👥 Admins', callback_data='admins'),
+            InlineKeyboardButton('ℹ️ Help', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
