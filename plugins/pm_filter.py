@@ -422,7 +422,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
         await query.answer('successfully changed')
-    elif query.data == "help":
+    elif query.data == "help",
+        )
+        await query.answer('successfully changed')
+    elif query.data == "admins":
         buttons = [[
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
             InlineKeyboardButton('Auto Filter', callback_data='autofilter')
