@@ -150,19 +150,6 @@ async def get_ststs(bot, message):
     await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free))
 
 
-Client.on_message(filters.command('donate') & filters.incoming)
-async def get_ststs(bot, message):
-    rju = await message.reply('Wait Kharo Bhai..')
-    total_users = await db.total_users_count()
-    totl_chats = await db.total_chat_count()
-    files = await Media.count_documents()
-    size = await db.get_db_size()
-    free = 536870912 - size
-    size = get_size(size)
-    free = get_size(free)
-    await rju.edit(script.DONATE_TXT)
-
-
 # a function for trespassing into others groups, Inspired by a Vazha
 # Not to be used , But Just to showcase his vazhatharam.
 # @Client.on_message(filters.command('invite') & filters.user(ADMINS))
