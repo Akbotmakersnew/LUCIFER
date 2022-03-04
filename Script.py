@@ -11,7 +11,7 @@ class script(object):
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     ADMINS_TXT = """Hey Bruh,
-My name is [LUCIFER](https://t.me/cc_autobot)
+My name is LUCIFER
 - My Admins are:
 - @IAM_A_JOKER
   @JINN_SULTHAN
