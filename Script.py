@@ -10,9 +10,11 @@ class script(object):
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
-    SOURCE_TXT = """<b>NOTE:</b>
-- LUCIFER is a open source project. 
-- Source - https://github.com/Akbotmakersnew/LUCIFER  
+    ADMINS_TXT = """<b>NOTE:</b>
+- Hey dear {}, My Admins are:
+- @cc_autobot ADMINS: @IAM_A_JOKER
+                      @JINN_SULTHAN
+                      @psychopath_here 
 
 <b>DEVS:</b>
 - <a href=https://t.me/Ak_Bot_SupportGroup>Team AkBotDevs</a>"""
