@@ -412,7 +412,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('👨‍💻 Creator', url='https://t.me/IAM_A_JOKER'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ], [
-            InlineKeyboardButton('👥 Admins', callback_data='admins'),
+            InlineKeyboardButton('😑 YOUTUBE', url='https://youtube.com/c/MADpsychoYT'),
             InlineKeyboardButton('ℹ️ Help', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
