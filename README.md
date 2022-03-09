@@ -68,8 +68,9 @@ You can deploy this on [HEROKU.COM](https://heroku.com) & [RAILWAY](https://rail
 • /channel - to get list of total connected channels
 • /broadcast - to broadcast a message to all Eva Maria users
 ```
-# DEVS
-[AK BOT DEVS](https://t.me/Ak_Bot_SupportGroup) & [Ls BOTZ](https://t.me/Ls_Supportz)
+# THANKS TO
+
+• [EvaMaria](https://github.com/EvamariaTG/EvaMaria)
 
 ## CREATOR
  
