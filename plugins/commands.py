@@ -49,6 +49,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('😎 YOUTUBE', url='https://youtube.com/c/MADpsychoYT'),
             InlineKeyboardButton('ℹ️ Help', callback_data='help')
+            ],[
+            InlineKeyboardButton('❤️ 𝓢𝓸𝓾𝓻𝓬𝓮', url='https://github.com/Akbotmakersnew/LUCIFER')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -92,6 +94,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('😎 YOUTUBE', url='https://youtube.com/c/MADpsychoYT'),
             InlineKeyboardButton('ℹ️ Help', callback_data='help')
+            ],[
+            InlineKeyboardButton('❤️ 𝓢𝓸𝓾𝓻𝓬𝓮', url='https://github.com/Akbotmakersnew/LUCIFER')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
