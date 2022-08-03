@@ -98,7 +98,7 @@
         },
         "DELETE_TIME": {
             "description": "Delete your bot messages for resist copyright issues"
-            "value": "300"
+            "value": "300",
             "required": true
         }
     },
