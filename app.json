@@ -95,6 +95,11 @@
         "P_TTI_SHOW_OFF": {
             "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
             "required": false
+        },
+        "DELETE_TIME": {
+            "description": "Delete your bot messages for resist copyright issues"
+            "value": "300"
+            "required": true
         }
     },
     "addons": [],
