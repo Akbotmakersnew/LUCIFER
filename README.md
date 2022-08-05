@@ -6,6 +6,10 @@
   <b>LUCIFER BOT</b>
 </h1>
 
+## New Features
+
+- [x] Message Auto Delete Feature
+
 ## Features
 
 - [x] Auto Filter
@@ -20,7 +24,7 @@
 - [x] ids and User info 
 - [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
 - [x] Spelling Check Feature
-
+- [x] Message Auto Delete Feature
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 * `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
@@ -30,6 +34,7 @@
 * `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
+* `DELETE_TIMR` : To avoid copyright issues in movie groups. Make sure bot is an admin with delete messages option.
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
 * Check [info.py](https://github.com/Akbotmakersnew/LUCIFER/blob/master/info.py) for more
