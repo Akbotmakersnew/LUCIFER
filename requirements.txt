@@ -11,4 +11,5 @@ hachoir
 asyncio
 youtube_dl
 uuid
+pytz
 aiohttp
